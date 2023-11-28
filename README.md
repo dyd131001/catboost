@@ -5,11 +5,13 @@
 * 범주형 자료에 대해 좋은 성능을 보이는 catboost 사용
 
 ## [데이터 셋](https://dacon.io/competitions/official/236158/data)
+* 36만개 항만 운항 데이터
+* 30개 가량의 독립변수
 
 ## 사용한 데이터 처리 기법
-- 변수 카테고리화
-- column 생성
-- 결측치 처리 (mean)
+* 변수 카테고리화
+* column 생성
+* 결측치 처리 (mean)
 
 ## 결과
 * colab gpu 제한으로 반복 학습을 시키지 못함.
